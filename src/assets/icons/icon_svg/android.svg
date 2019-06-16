@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:url(#SVGID_1_);stroke-width:10;stroke-miterlimit:10;}
+	.st1{fill:#A4C639;}
+	.st2{fill:none;stroke:#A4C639;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;}
+	.st3{fill:#FFFFFF;}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="256" y1="493.1" x2="256" y2="18.9">
+	<stop  offset="0" style="stop-color:#D7D7D7;stop-opacity:0.5"/>
+	<stop  offset="1" style="stop-color:#B00404"/>
+</linearGradient>
+<circle class="st0" cx="256" cy="256" r="232.1"/>
+<path class="st1" d="M213.4,287.5c10.4,0,18.9,8.5,18.9,18.9v81.1c0,10.4-8.5,18.9-18.9,18.9s-18.9-8.5-18.9-18.9v-81.1
+	C194.4,296,202.9,287.5,213.4,287.5L213.4,287.5z"/>
+<path class="st1" d="M170.2,190c-0.1,0.7-0.1,1.4-0.1,2.2v122.9c0,13.2,10.5,23.9,23.4,23.9h125c13,0,23.4-10.6,23.4-23.9V192.2
+	c0-0.7,0-1.5-0.1-2.2H170.2L170.2,190z"/>
+<path class="st1" d="M298.6,287.5c10.4,0,18.9,8.5,18.9,18.9v81.1c0,10.4-8.5,18.9-18.9,18.9s-18.9-8.5-18.9-18.9v-81.1
+	C279.7,296,288.2,287.5,298.6,287.5L298.6,287.5z M139.7,201c10.4,0,18.9,8.5,18.9,18.9V301c0,10.4-8.5,18.9-18.9,18.9
+	s-18.9-8.5-18.9-18.9v-81.1C120.8,209.4,129.3,201,139.7,201L139.7,201z M372.3,201c10.4,0,18.9,8.5,18.9,18.9V301
+	c0,10.4-8.5,18.9-18.9,18.9s-18.9-8.5-18.9-18.9v-81.1C353.4,209.4,361.9,201,372.3,201L372.3,201z M170.7,182
+	c0.5-37.7,33.5-68.7,75.8-72.8h19c42.3,4.1,75.2,35,75.8,72.8H170.7z"/>
+<path class="st2" d="M177.3,105.5l19.9,34.5 M334.7,105.5L314.8,140"/>
+<path class="st3" d="M230.6,148.1c0,5.3-4.4,9.6-9.8,9.6c-5.4,0-9.8-4.3-9.8-9.5v-0.1c0-5.3,4.4-9.6,9.8-9.6
+	C226.2,138.5,230.6,142.8,230.6,148.1L230.6,148.1z M303.6,148.1c0,5.3-4.4,9.6-9.8,9.6s-9.8-4.3-9.8-9.5v-0.1
+	c0-5.3,4.4-9.6,9.8-9.6S303.6,142.8,303.6,148.1L303.6,148.1z"/>
+</svg>

@@ -1,0 +1,27 @@
+@import "./variables.scss";
+
+.btn-outline-light{
+    border-radius: 0px 50px 0px 0px;
+    padding: 2px 30px;
+    border: 2px solid;
+}
+body{
+    font-family: $body-font;
+}
+h1{
+    font-family: $main-font;
+    text-transform: uppercase;
+}
+h4{
+    text-transform: uppercase;
+    font-family: $main-font;
+}
+.contact-stripe{
+    background-image: linear-gradient(to bottom right, #b00404, #D92323);
+    width: 100%;
+    color: $white-colour;
+    padding: 15px;
+    &-inner-text{
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,117 @@
+@import "../../variables.scss";
+.main{
+    padding: 60px 0px;
+
+    &-icon{
+        max-width: 80px;
+        max-height: 150px;
+        padding: 40px 0px;
+    }
+    &-service{
+        text-align: center;
+        padding: 10px;
+        margin: 20px;
+        &-inner{
+            text-align: left;
+            padding-top: 30px;
+        }
+    }
+}
+.my-h4{
+    padding-bottom: 10px;
+    font-weight: bolder;
+}
+.section{
+    &-heading{
+        padding: 50px 0px;
+        font-weight: bolder !important;
+        &-alternate{
+            background-color: $gray-colour;
+        }
+        
+    }
+}
+/* iPhone 4 ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .contact-stripe-inner-text {
+        font-size: 14px;
+    }
+    .hero-btn{
+        margin-right: 15px !important;
+        padding: 1px 15px;
+        font-size: 12px;
+    }
+    .btn-outline-light {
+        border-radius: 5px 5px 5px 5px;
+        margin: 40px 15px 15px 0px;
+        font-size: 12px;
+    }
+    .section-heading{
+        padding: 20px 0px;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    h4 {
+        font-size: 1rem;
+        color: $base-colour;
+    }
+    .main{
+        padding: 0px;
+        &-icon{
+            padding: 10px 0px;
+            max-width: 50px;
+            max-height: 80px;
+        }
+    }
+    .skills{
+        padding: 10px 0px;
+        max-width: 40px;
+        margin: 3px;
+    }
+    
+} 
+@media only screen and (min-device-width : 480px) and (max-device-width : 768px) {
+    .contact-stripe-inner-text {
+        font-size: 16px;
+    }
+    .hero-btn{
+        margin-right: 15px !important;
+        padding: 1px 15px;
+        font-size: 12px;
+    }
+    .btn-outline-light {
+        border-radius: 5px 5px 5px 5px;
+        margin: 40px 15px 15px 0px;
+        font-size: 12px;
+    }
+    .section-heading{
+        padding: 20px 0px;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    h4 {
+        font-size: 1rem;
+        color: $base-colour;
+    }
+    .main{
+        padding: 0px;
+        &-icon{
+            padding: 10px 0px;
+            max-width: 50px;
+            max-height: 80px;
+        }
+        &-service {
+            text-align: center;
+            padding: 0px;
+            margin: 0px;
+        }
+    }
+    .skills{
+        padding: 10px 0px;
+        max-width: 40px;
+        margin: 3px;
+    }
+    
+}

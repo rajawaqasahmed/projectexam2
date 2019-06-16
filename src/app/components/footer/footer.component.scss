@@ -1,0 +1,97 @@
+@import "../../../variables.scss";
+
+
+
+.footer{
+    &-top{
+        background-color: $gray-colour;  
+        padding: 30px;
+        text-align: left;
+    }
+    &-text{
+        color: $base-colour;
+        font-family: $main-font;
+        font-size: 24px;
+        font-weight: 800;
+        &-normal{
+            font-size: 14px !important;
+            margin-bottom: 0px;
+            &-black{
+                color: $black-colour;
+            }
+        }
+    }
+    &-icon{
+        max-width: 30px;
+        padding: 5px;
+    }
+    &-list{
+        padding-left: 15px;
+        list-style-type: none;
+        font-family: $body-font;
+        color: $black-colour;
+        & a{
+            color: $black-colour; 
+            &:hover{
+                color: $base-colour;
+            }
+        }
+    }
+    &-img{
+        max-width: 400px;
+        padding: 5px;
+    }
+
+    &-center-section{
+        padding-left: 15px;
+        padding-bottom: 20px;
+        padding: 10px;
+        & span {
+            
+        }
+    }
+
+}
+/* iPhone 4 ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+    .footer-img{
+        max-width: 100%;
+        padding: 10px;
+    }
+    .btn-outline-light {
+        border-radius: 5px 5px 5px 5px;
+        padding: 2px 5px;
+        font-size: 12px;
+        border: 2px solid;
+    }
+    .float-left {
+        float: left!important;
+        font-size: 12px;
+    }
+    .footer{
+        &-text{
+            font-size: 18px;
+        }
+        &-list{
+            font-size: 14px;
+        }
+    }
+}
+
+/* ipad ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+    .footer-img{
+        max-width: 100%;
+        padding: 15px;
+    }
+    .btn-outline-light {
+        border-radius: 5px 5px 5px 5px;
+        padding: 2px 5px;
+        font-size: 14px;
+        border: 2px solid;
+    }
+    .float-left {
+        float: left!important;
+        font-size: 14px;
+    } 
+}

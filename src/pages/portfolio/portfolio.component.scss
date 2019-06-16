@@ -1,0 +1,179 @@
+@import "../../variables.scss";
+.portfolio{
+    &-nav{
+        margin: 50px 5px;
+        border-color: $base-colour;
+        color: $base-colour;
+        
+    }
+    &-body{
+        padding: 40px 10px;
+    }
+    &-alternate{
+        background-color: rgba($gray-colour, 0.5); 
+    }
+}
+.btn{
+    &-danger{
+        background-color: $base-colour;
+        margin-right: 5px;
+        &:hover{
+            color: $base-colour;
+            background-color: $white-colour;
+        }
+    }
+    &-outline{
+        &-danger{
+
+            &:hover{
+                background-color: $base-colour;
+                color: $white-colour;
+            }
+        }
+    }
+}
+.thumbnail{
+    border: 1px solid white;
+    box-shadow: 0px 5px 10px 2px gray;
+    width: 250px;
+    margin: 20px;
+    &-img{
+        width: 240px;
+        height: 150px; 
+    }
+}
+
+
+
+@media only screen and (min-device-width : 340px) and (max-device-width : 480px) {
+    .thumbnail{
+        border: 1px solid white;
+        box-shadow: 0px 5px 10px 2px gray;
+        width: 80px;
+        margin: 20px 10px 5px 5px;
+        &-img{
+            width: 60px;
+            height: 50px; 
+        }
+    }
+    .container{
+        padding-left: 30px;
+    }
+    .btn{
+        &-danger{
+            background-color: $base-colour;
+            margin-right: 5px;
+            font-size: 10px;
+            &:hover{
+                color: $base-colour;
+                background-color: $white-colour;
+            }
+        }
+        &-outline{
+            &-danger{
+                font-size: 10px;
+                &:hover{
+                    background-color: $base-colour;
+                    color: $white-colour;
+                }
+            }
+        }
+    }
+    .portfolio-nav{
+        margin: 1px;
+        padding: 1px 4px
+    }
+    .contact-stripe-inner-text {
+        font-size: 14px;
+    }
+    .hero-btn{
+        margin-right: 15px !important;
+        padding: 1px 15px;
+        font-size: 12px;
+    }
+    .btn-outline-light {
+        border-radius: 5px 5px 5px 5px;
+        margin: 40px 15px 15px 0px;
+        font-size: 12px;
+    }
+    .section-heading{
+        padding: 20px 0px;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    h4 {
+        font-size: 1rem;
+        color: $base-colour;
+    }
+    .carousal-img{
+        max-width: 50px;
+    }
+}
+
+@media only screen and (min-device-width : 480px) and (max-device-width : 800px) {
+    .thumbnail{
+        border: 1px solid white;
+        box-shadow: 0px 5px 10px 2px gray;
+        width: 120px;
+        margin: 20px 10px 5px 10px;
+        &-img{
+            width: 115px;
+            height: 100px; 
+        }
+    }
+    .container{
+        padding-left: 10px;
+    }
+    .btn{
+        &-danger{
+            background-color: $base-colour;
+            margin-right: 5px;
+            font-size: 14px;
+            &:hover{
+                color: $base-colour;
+                background-color: $white-colour;
+            }
+        }
+        &-outline{
+            &-danger{
+                font-size: 14px;
+                &:hover{
+                    background-color: $base-colour;
+                    color: $white-colour;
+                }
+            }
+        }
+    }
+    .portfolio-nav{
+        margin: 5px;
+        padding: 3px 10px
+    }
+    .contact-stripe-inner-text {
+        font-size: 14px;
+    }
+    .hero-btn{
+        margin-right: 15px !important;
+        padding: 1px 15px;
+        font-size: 12px;
+    }
+    .btn-outline-light {
+        border-radius: 5px 5px 5px 5px;
+        margin: 40px 15px 15px 0px;
+        font-size: 12px;
+    }
+    .section-heading{
+        padding: 20px 0px;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    h4 {
+        font-size: 1rem;
+        color: $base-colour;
+    }
+    .carousal-img{
+        max-width: 100px;
+    }
+}
+

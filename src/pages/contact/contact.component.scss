@@ -1,0 +1,29 @@
+@import "../../variables.scss";
+
+
+.heading{
+    margin-top: 100px;
+}
+.myForm{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding: 5px;
+    &-div{
+        margin: 12px 0px;
+        background-color: $gray-colour; 
+        &-2{
+            width: 104%;
+            margin-left: -10px;
+            height: 200px;
+        }
+    }
+}
+.myButton{
+    background-color: #921515;
+    width: 100% !important;
+    margin-bottom: 100px;
+    &:hover{
+        color: $black-colour;
+        background-color: $gray-colour;
+    }
+}

@@ -1,0 +1,73 @@
+<section> <!--main heading-->
+  <div class="[ row ]">
+    <div class="[ container col-sm-12 ]">
+      <div class="[ heading ]">
+        <h1>contact us</h1>
+      </div>
+    </div>
+  </div>
+</section>
+<form [formGroup]="contactForm" (ngSubmit)="contactForm.valid && onSubmit()">
+<section> <!--form-body-->
+  <div class="[ container ]">
+      <div class="[ myForm ]">
+        <div class="[ row ]">
+            <div class="[ col-sm-2 ]"></div>
+            <div class="[ col-sm-4 ]">
+                <input class="[ form-control myForm-div ]" type="text" formControlName="firstName" placeholder="First Name" [ngClass]="{'is-invalid': contactForm.get('firstName').touched && contactForm.get('firstName').invalid}"/>
+            </div>
+            <div class="[ invalid-feedback ]">
+                <div>First name is required</div>
+            </div>
+            <div class="[ col-sm-4 ]">
+                <input class="[ form-control myForm-div ]" type="text" formControlName="lastName" placeholder="lastName" [ngClass]="{'is-invalid': contactForm.get('lastName').touched && contactForm.get('lastName').invalid}"/>
+            </div>
+            <div class="[ invalid-feedback ]">
+                <div>Last name is required</div>
+            </div>
+            <div class="[ col-sm-2 ]"></div>
+          </div>
+          <div class="[ row ]">
+              <div class="[ col-sm-2 ]"></div>
+              <div class="[ col-sm-4  ]">
+                <input class="[ form-control myForm-div ]" type="text" formControlName="emailId" placeholder="Email ID" [ngClass]="{'is-invalid': contactForm.get('emailId').touched && contactForm.get('emailId').invalid}" />
+                <div *ngIf="contactForm.get('emailId').touched && contactForm.get('emailId').invalid" class="invalid-feedback">
+                    <div *ngIf="contactForm.get('emailId').errors.required">Email is required</div>
+                    <div *ngIf="contactForm.get('emailId').errors.email">Must be a valid email</div>
+                </div>  
+              </div>    
+              <div class="[ col-sm-4  ]">
+                  <input class="[ form-control myForm-div ]" type="text" formControlName="phoneNumber" placeholder="Phone Number" [ngClass]="{'is-invalid': contactForm.get('phoneNumber').touched && contactForm.get('phoneNumber').invalid}" />
+                  <div class="[ invalid-feedback ]">
+                      <div>Valid Phone number is required. Possibilities are:<br /> 
+                        xxx-xxx-xxxx<br />
+                        xxx.xxx.xxxx<br />
+                        xxx xxx xxxx<br />
+                      
+                      </div>
+                  </div>        
+              </div>   
+              <div class="[ col-sm-2 ]"></div>
+            </div>
+         <div class="[ container ]">
+           <div class="[ row ]">
+             <div class="[ col-sm-2 ]"></div>
+             <div class="[ col-sm-8 ]">
+                <textarea class="[ form-control myForm-div myForm-div-2 ]" type="text" formControlName="comment" placeholder="Comments"></textarea>
+             </div>
+             <div class="[ col-sm-2 ]"></div>
+           </div>
+         </div>
+        </div>
+        </div>
+</section>
+<section>    <!--button-section-->
+  <div class="[ container ]">
+    <div class="[ row ]">
+      <div class="[ col-sm-2 ]"></div>
+      <div  class="[ col-sm-8 ]"><button type="submit" class="[ btn btn-secondary myButton ]">SUBMIT</button></div>
+      <div class="[ col-sm-2 ]"></div>
+    </div>
+  </div>
+</section>
+</form>
